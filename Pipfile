@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "==0.70.0"
+fpdf = "==1.7.2"
+num2words = "==0.5.10"
+pydantic = "==1.8.2"
+pymongo = {extras = ["srv"], version = "*"}
+uvicorn = "==0.15.0"
+gunicorn = "*"
+PyPDF2 = "==1.26.0"
+Jinja2 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
